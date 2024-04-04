@@ -59,7 +59,7 @@ class HomeController extends Controller
     }
     public function checkStatus(Request $request)
     {
-        $result;
+        $result = null;
         if($request->id)
         {
             $sheetdb = new SheetDB('83gyd54xkvg9t');
